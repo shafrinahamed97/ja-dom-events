@@ -37,7 +37,7 @@ function makeRed()
         document.body.style.backgroundColor = 'green';
      })
 
-     // Optio:4 Final [Imporatn: We will use this sometime ***]
+     // Optio:4 Final [Imporatn: We will use this sometime ***  ]
      document.getElementById('make-goldenrod').addEventListener('click',function(){
         document.body.style.backgroundColor= ' goldenrod';
      })
