@@ -2,7 +2,7 @@ console.log('This is separate JS file');
 // Option 1: Directly set on the HTML element
 //<button onclick="console.log(65)">Other Button</button>
 
-// Option 2: Add onclick function on the html fucntion
+// Option 2: Add onclick function on the html element[Important: we will use this ****]
 //<button onclick="makeRed()">Make Red</button>
 function makeRed()
    {
@@ -17,7 +17,7 @@ function makeRed()
         document.body.style.backgroundColor = 'blue';
     }
 
-    // option: 3 Another
+    // option: 3 Another 
     const purpleButton= document.getElementById('make_purple');
     purpleButton.onclick = function makePurple()
     {
@@ -37,7 +37,7 @@ function makeRed()
         document.body.style.backgroundColor = 'green';
      })
 
-     // Optio:4 Final
+     // Optio:4 Final [Imporatn: We will use this sometime ***]
      document.getElementById('make-goldenrod').addEventListener('click',function(){
         document.body.style.backgroundColor= ' goldenrod';
      })
