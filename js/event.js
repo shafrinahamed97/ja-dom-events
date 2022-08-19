@@ -1,6 +1,9 @@
 console.log('This is separate JS file');
 // Option 1: Directly set on the HTML element
-// Option 2: Add onclick function
+//<button onclick="console.log(65)">Other Button</button>
+
+// Option 2: Add onclick function on the html fucntion
+//<button onclick="makeRed()">Make Red</button>
 function makeRed()
    {
     document.body.style.backgroundColor = 'red';
