@@ -17,6 +17,7 @@
         <li class="item">Non, totam amet.</li>
         <li class="item">Reiciendis, sapiente fugit!</li>
     </ul>
+    <button id="btn-add-item">Add new Item</button>
    </section>
 
    <script>
@@ -29,6 +30,13 @@
         })
 
     }
+    document.getElementById('btn-add-item').addEventListener('click', function(){
+        const listContainer = document.getElementById('list-container');
+        const li = document.createElement('li');
+        li.innerText =  'Brand New Item added';
+        li.classList.add('item');
+        listContainer.appendChild(li);
+    })
    </script>
     
 </body>
